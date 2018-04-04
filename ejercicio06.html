@@ -5,14 +5,13 @@
 	<title>Ejercicio06</title>
 
 	<style media="screen">
- 	@media (min-width:400px) and (max-width:600px)
+	@media (min-width:0px) 
  	{
  	body{
- 	font-size:14px;
- 	margin:0px;	
+ 	font-size:12px;
  	}
  	.contenedor{
- 	width:90%;
+ 	width:80%;
  	margin: auto;	
  	}
 	.row{	
@@ -30,16 +29,57 @@
 	padding:10px;
 	box-sizing:border-box;  
 	}
-	h1{	
+	h1{
+	font-size:1em;
 	text-align:center;
 	font-family: 'Roboto', sans-serif;
 	color:white;	
+	}
+	.imagen{
+	width:90%;
+	text-align:center;	
+	}
+	}	
+
+ 	@media (min-width:480px) and (max-width:600px)
+ 	{
+ 	body{
+ 	font-size:14px;	
+ 	}
+ 	.contenedor{
+ 	width:80%;
+ 	margin: auto;	
+ 	}
+	.row{	
+	clear:both;	
+	}
+	.col-sd-1, .col-sd-2{
+	float:left;
+	}
+	.col-sd-1{
+	width:100%;
+	background-color:#6CBD5B;
+	}	
+	.col-sd-2{
+	width:100%;
+	padding:10px;
+	box-sizing:border-box;  
+	}
+	h1{
+	font-size:1.5em;	
+	text-align:center;
+	font-family: 'Roboto', sans-serif;
+	color:white;	
+	}
+	.imagen{
+	width:90%;	
 	}	
 
  	}
  	@media (min-width:601px) 
  	{
  	body{
+ 	font-size:16px;	
  	}
  		.contenedor{
  	margin:auto;		
@@ -61,9 +101,13 @@
 	box-sizing:border-box; 
 	}
 	h1{
+	font-size:1.5em;
 	text-align:center;
 	font-family: 'Roboto', sans-serif;
 	color:white;	
+	}
+	.imagen{
+	width:90%;
 	}	
  		
  	}
@@ -85,15 +129,15 @@
 
 <div class="row">
 	<div class="col-md-2 col-sd-2" >
-		<img src="./cuadrado.jpg" width="100%">
+		<img src="./cuadrado.jpg" width="" class="imagen">
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin non est a laoreet. Ut dignissim ornare est eget viverra. Proin condimentum augue molestie, congue augue a, pulvinar lorem. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse imperdiet sem turpis, at maximus libero eleifend vitae. In sit amet sapien malesuada, blandit leo non, tristique leo. Phasellus id ullamcorper metus. Mauris maximus nulla sit amet augue bibendum, malesuada sollicitudin urna iaculis.</p>
 	</div>
 		<div class="col-md-2 col-sd-2" >
-		<img src="./cuadrado.jpg" width="100%">
+		<img src="./cuadrado.jpg" width="" class="imagen">
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin non est a laoreet. Ut dignissim ornare est eget viverra. Proin condimentum augue molestie, congue augue a, pulvinar lorem. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse imperdiet sem turpis, at maximus libero eleifend vitae. In sit amet sapien malesuada, blandit leo non, tristique leo. Phasellus id ullamcorper metus. Mauris maximus nulla sit amet augue bibendum, malesuada sollicitudin urna iaculis.</p>
 	</div>
 		<div class="col-md-2 col-sd-2" >
-		<img src="./cuadrado.jpg" width="100%">
+		<img src="./cuadrado.jpg" width="" class="imagen">
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin non est a laoreet. Ut dignissim ornare est eget viverra. Proin condimentum augue molestie, congue augue a, pulvinar lorem. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse imperdiet sem turpis, at maximus libero eleifend vitae. In sit amet sapien malesuada, blandit leo non, tristique leo. Phasellus id ullamcorper metus. Mauris maximus nulla sit amet augue bibendum, malesuada sollicitudin urna iaculis.</p>
 	</div>
 </div>
